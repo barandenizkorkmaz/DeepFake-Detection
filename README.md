@@ -1,5 +1,5 @@
 # DeepFake Detection
-Boğaziçi University undergraduate project supervised by Assoc. Prof. İnci M. Baytaş.
+Boğaziçi University undergraduate project supervised by Assistant Professor İnci M. Baytaş.
 
 ## Project Associates
 * [Baran Deniz Korkmaz](https://github.com/barandenizkorkmaz)
