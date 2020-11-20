@@ -1,0 +1,222 @@
+/usr/bin/python3.6 /home/denizkorkmaz/PycharmProjects/DFDTransferLearningv1/main.py
+2020-11-20 19:19:00.447330: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-20 19:19:00.447345: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Found 812 files belonging to 2 classes.
+Using 650 files for training.
+2020-11-20 19:19:01.820119: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-20 19:19:01.858755: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-11-20 19:19:01.859341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1050 computeCapability: 6.1
+coreClock: 1.493GHz coreCount: 5 deviceMemorySize: 3.95GiB deviceMemoryBandwidth: 104.43GiB/s
+2020-11-20 19:19:01.859453: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859525: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859606: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859674: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859753: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859843: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859913: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-11-20 19:19:01.859923: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-11-20 19:19:01.860241: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-20 19:19:01.869496: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2199995000 Hz
+2020-11-20 19:19:01.869996: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5bbfff0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-20 19:19:01.870015: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-11-20 19:19:01.875696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-20 19:19:01.875714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+Found 812 files belonging to 2 classes.
+Using 162 files for validation.
+Number of layers in the model:  5
+2020-11-20 19:19:05.711154: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:19:05.845816: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:118] None of the MLIR optimization passes are enabled (registered 1)
+2020-11-20 19:19:08.160733: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 530841600 exceeds 10% of free system memory.
+2020-11-20 19:19:09.094106: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 530841600 exceeds 10% of free system memory.
+ 1/20 [>.............................] - ETA: 3:45 - loss: 0.6785 - accuracy: 0.54692020-11-20 19:19:17.230883: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 530841600 exceeds 10% of free system memory.
+2020-11-20 19:19:17.373803: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 530841600 exceeds 10% of free system memory.
+ 2/20 [==>...........................] - ETA: 2:53 - loss: 0.6689 - accuracy: 0.57422020-11-20 19:19:24.610609: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 282009600 exceeds 10% of free system memory.
+20/20 [==============================] - 24s 1s/step - loss: 0.6517 - accuracy: 0.6074
+WARNING:tensorflow:Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches (in this case, 20 batches). You may need to use the repeat() function when building your dataset.
+Initial Loss = 0.65, Initial Accuracy = 0.61
+2020-11-20 19:19:28.901059: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:19:28.919944: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+Epoch 1/10
+11/11 [==============================] - ETA: 0s - loss: 0.6567 - accuracy: 0.84312020-11-20 19:20:41.351085: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:20:41.367186: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:20:57.350074: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 88s 8s/step - loss: 0.6567 - accuracy: 0.8431 - val_loss: 0.0233 - val_accuracy: 0.9877
+Epoch 2/10
+11/11 [==============================] - ETA: 0s - loss: 0.0212 - accuracy: 0.98462020-11-20 19:22:01.693704: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:22:01.706417: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 79s 7s/step - loss: 0.0212 - accuracy: 0.9846 - val_loss: 0.0067 - val_accuracy: 1.0000
+Epoch 3/10
+2020-11-20 19:22:16.519623: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 0.0047 - accuracy: 1.00002020-11-20 19:23:16.709046: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+2020-11-20 19:23:16.720199: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 75s 7s/step - loss: 0.0047 - accuracy: 1.0000 - val_loss: 6.8068e-04 - val_accuracy: 1.0000
+Epoch 4/10
+2020-11-20 19:23:31.312786: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 0.0015 - accuracy: 1.00002020-11-20 19:24:32.787449: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:24:32.805390: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 77s 7s/step - loss: 0.0015 - accuracy: 1.0000 - val_loss: 2.0234e-04 - val_accuracy: 1.0000
+Epoch 5/10
+2020-11-20 19:24:47.839789: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 6.0919e-04 - accuracy: 1.00002020-11-20 19:25:47.782827: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:25:47.795376: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:26:02.447922: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 75s 7s/step - loss: 6.0919e-04 - accuracy: 1.0000 - val_loss: 3.8268e-04 - val_accuracy: 1.0000
+Epoch 6/10
+11/11 [==============================] - ETA: 0s - loss: 3.8984e-04 - accuracy: 1.00002020-11-20 19:27:01.962407: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+2020-11-20 19:27:01.974021: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 75s 7s/step - loss: 3.8984e-04 - accuracy: 1.0000 - val_loss: 1.2117e-04 - val_accuracy: 1.0000
+2020-11-20 19:27:17.287697: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+Epoch 7/10
+11/11 [==============================] - ETA: 0s - loss: 2.4183e-04 - accuracy: 1.00002020-11-20 19:28:17.151356: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:28:17.162989: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 74s 7s/step - loss: 2.4183e-04 - accuracy: 1.0000 - val_loss: 1.1491e-04 - val_accuracy: 1.0000
+Epoch 8/10
+2020-11-20 19:28:31.674645: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 2.4224e-04 - accuracy: 1.00002020-11-20 19:29:30.929479: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:29:30.940279: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 74s 7s/step - loss: 2.4224e-04 - accuracy: 1.0000 - val_loss: 1.0194e-04 - val_accuracy: 1.0000
+Epoch 9/10
+2020-11-20 19:29:45.481665: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 2.0130e-04 - accuracy: 1.00002020-11-20 19:30:44.677840: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:30:44.690277: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 74s 7s/step - loss: 2.0130e-04 - accuracy: 1.0000 - val_loss: 9.9702e-05 - val_accuracy: 1.0000
+Epoch 10/10
+2020-11-20 19:30:59.110548: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 1.9261e-04 - accuracy: 1.00002020-11-20 19:31:58.237500: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:31:58.248145: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 74s 7s/step - loss: 1.9261e-04 - accuracy: 1.0000 - val_loss: 9.6987e-05 - val_accuracy: 1.0000
+Number of layers in the base model:  22
+2020-11-20 19:32:13.599077: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:32:13.610322: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+Epoch 10/20
+11/11 [==============================] - ETA: 0s - loss: 0.5788 - accuracy: 0.67142020-11-20 19:33:33.983290: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:33:33.997685: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 95s 9s/step - loss: 0.5623 - accuracy: 0.6833 - val_loss: 0.0444 - val_accuracy: 0.9877
+2020-11-20 19:33:48.635960: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+Epoch 11/20
+11/11 [==============================] - ETA: 0s - loss: 0.0373 - accuracy: 0.99152020-11-20 19:35:08.546746: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+2020-11-20 19:35:08.565846: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 94s 9s/step - loss: 0.0368 - accuracy: 0.9914 - val_loss: 0.0104 - val_accuracy: 1.0000
+Epoch 12/20
+2020-11-20 19:35:23.044531: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 0.0147 - accuracy: 0.99352020-11-20 19:36:42.850981: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:36:42.863728: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 94s 9s/step - loss: 0.0149 - accuracy: 0.9934 - val_loss: 0.0041 - val_accuracy: 1.0000
+Epoch 13/20
+2020-11-20 19:36:57.304829: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 0.0122 - accuracy: 1.00002020-11-20 19:38:17.625725: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:38:17.637810: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 95s 9s/step - loss: 0.0120 - accuracy: 1.0000 - val_loss: 0.0053 - val_accuracy: 1.0000
+Epoch 14/20
+2020-11-20 19:38:31.987821: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 0.0048 - accuracy: 1.00002020-11-20 19:39:51.758918: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:39:51.774523: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:40:06.048884: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 94s 9s/step - loss: 0.0047 - accuracy: 1.0000 - val_loss: 8.7591e-04 - val_accuracy: 1.0000
+Epoch 15/20
+11/11 [==============================] - ETA: 0s - loss: 0.0017 - accuracy: 1.00002020-11-20 19:41:25.617424: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+2020-11-20 19:41:25.629320: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 94s 9s/step - loss: 0.0017 - accuracy: 1.0000 - val_loss: 7.1178e-04 - val_accuracy: 1.0000
+Epoch 16/20
+2020-11-20 19:41:39.961308: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 9.7465e-04 - accuracy: 1.00002020-11-20 19:42:59.900460: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+2020-11-20 19:42:59.914468: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 94s 9s/step - loss: 9.6805e-04 - accuracy: 1.0000 - val_loss: 5.6653e-04 - val_accuracy: 1.0000
+Epoch 17/20
+2020-11-20 19:43:14.180122: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 6.1681e-04 - accuracy: 1.00002020-11-20 19:44:33.816388: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:44:33.828562: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 94s 9s/step - loss: 6.1546e-04 - accuracy: 1.0000 - val_loss: 5.5996e-04 - val_accuracy: 1.0000
+Epoch 18/20
+2020-11-20 19:44:48.207048: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 5.3372e-04 - accuracy: 1.00002020-11-20 19:46:07.985622: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:46:08.000635: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 94s 9s/step - loss: 5.3280e-04 - accuracy: 1.0000 - val_loss: 4.6565e-04 - val_accuracy: 1.0000
+Epoch 19/20
+2020-11-20 19:46:22.223784: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [650]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - ETA: 0s - loss: 4.7354e-04 - accuracy: 1.00002020-11-20 19:47:41.687389: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:47:41.701635: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+11/11 [==============================] - 94s 9s/step - loss: 4.7127e-04 - accuracy: 1.0000 - val_loss: 3.9063e-04 - val_accuracy: 1.0000
+Epoch 20/20
+2020-11-20 19:47:55.985815: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [650]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - ETA: 0s - loss: 4.0455e-04 - accuracy: 1.00002020-11-20 19:49:15.278295: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_3' with dtype int32 and shape [162]
+	 [[{{node Placeholder/_3}}]]
+2020-11-20 19:49:15.292623: W tensorflow/core/common_runtime/executor.cc:1086] [/device:CPU:0] Executor start aborting: Invalid argument: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [162]
+	 [[{{node Placeholder/_0}}]]
+11/11 [==============================] - 94s 9s/step - loss: 4.0396e-04 - accuracy: 1.0000 - val_loss: 3.4401e-04 - val_accuracy: 1.0000
+WARNING:tensorflow:From /home/denizkorkmaz/.local/lib/python3.6/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2020-11-20 19:49:30.343903: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:From /home/denizkorkmaz/.local/lib/python3.6/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+
+Process finished with exit code 0
