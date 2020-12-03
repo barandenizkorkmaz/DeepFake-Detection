@@ -1,0 +1,283 @@
+2020-12-03 23:19:07.621129: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-03 23:19:07.621153: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Running: python3 /home/dogukan/492-TransferLearning-LSTM/model/CNN/train_cnn.py -base
+2020-12-03 23:19:09.264655: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-03 23:19:09.264681: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+rm: cannot remove '/home/dogukan/492-TransferLearning-LSTM/CNN_Model': No such file or directory
+Found 1250 files belonging to 2 classes.
+2020-12-03 23:19:11.168253: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-03 23:19:11.169755: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2020-12-03 23:19:11.196113: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-03 23:19:11.196579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1727] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 960M computeCapability: 5.0
+coreClock: 1.176GHz coreCount: 5 deviceMemorySize: 3.95GiB deviceMemoryBandwidth: 74.65GiB/s
+2020-12-03 23:19:11.196724: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.196851: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.196955: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197056: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197155: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197279: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197388: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197496: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2020-12-03 23:19:11.197522: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1764] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-03 23:19:11.198009: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-03 23:19:11.198431: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-03 23:19:11.198467: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-03 23:19:11.198483: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1273]      
+Found 350 files belonging to 2 classes.
+2020-12-03 23:19:11.842585: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 209715200 exceeds 10% of free system memory.
+2020-12-03 23:19:11.926211: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 209715200 exceeds 10% of free system memory.
+2020-12-03 23:19:11.953212: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 209715200 exceeds 10% of free system memory.
+2020-12-03 23:19:12.051679: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:127] None of the MLIR optimization passes are enabled (registered 2)
+2020-12-03 23:19:12.052253: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2599990000 Hz
+2020-12-03 23:19:22.236998: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 310 of 512
+2020-12-03 23:19:23.574871: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+2020-12-03 23:19:23.574974: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 24883200 exceeds 10% of free system memory.
+2020-12-03 23:19:23.588363: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 24883200 exceeds 10% of free system memory.
+ 6/20 [========>.....................] - ETA: 1:23 - loss: 1.1370 - accuracy: 0.3414WARNING:tensorflow:Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches (in this case, 20 batches). You may need to use the repeat() function when building your dataset.
+20/20 [==============================] - 48s 2s/step - loss: 1.1593 - accuracy: 0.3284
+Initial Loss = 1.17, Initial Accuracy = 0.32
+Epoch 1/15
+2020-12-03 23:20:10.384231: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 153 of 512
+2020-12-03 23:20:20.403178: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 291 of 512
+2020-12-03 23:20:30.375973: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 434 of 512
+2020-12-03 23:20:35.833845: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 4.6954 - accuracy: 0.6168 2020-12-03 23:24:04.471680: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 261 of 512
+2020-12-03 23:24:10.076828: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 292s 13s/step - loss: 4.6954 - accuracy: 0.6168 - val_loss: 1.8552 - val_accuracy: 0.5171
+Epoch 2/15
+2020-12-03 23:25:01.862900: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 240 of 512
+2020-12-03 23:25:11.826052: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 447 of 512
+2020-12-03 23:25:14.311768: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.8787 - accuracy: 0.76722020-12-03 23:28:29.871758: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 302 of 512
+2020-12-03 23:28:31.599112: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 264s 12s/step - loss: 0.8787 - accuracy: 0.7672 - val_loss: 2.5360 - val_accuracy: 0.5057
+Epoch 3/15
+2020-12-03 23:29:25.870101: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 290 of 512
+2020-12-03 23:29:33.419080: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.5252 - accuracy: 0.76322020-12-03 23:32:51.601798: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 277 of 512
+2020-12-03 23:32:54.033065: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 263s 12s/step - loss: 0.5252 - accuracy: 0.7632 - val_loss: 1.8259 - val_accuracy: 0.5000
+Epoch 4/15
+2020-12-03 23:33:49.260036: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 256 of 512
+2020-12-03 23:33:57.975667: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.3598 - accuracy: 0.79202020-12-03 23:37:18.151184: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 297 of 512
+2020-12-03 23:37:19.965849: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 266s 12s/step - loss: 0.3598 - accuracy: 0.7920 - val_loss: 1.7714 - val_accuracy: 0.5029
+Epoch 5/15
+2020-12-03 23:38:15.467701: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 273 of 512
+2020-12-03 23:38:24.061647: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.3178 - accuracy: 0.81442020-12-03 23:41:45.647775: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 297 of 512
+2020-12-03 23:41:47.435252: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 268s 13s/step - loss: 0.3178 - accuracy: 0.8144 - val_loss: 1.4909 - val_accuracy: 0.6057
+Epoch 6/15
+2020-12-03 23:42:43.441615: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 260 of 512
+2020-12-03 23:42:53.437709: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 504 of 512
+2020-12-03 23:42:53.754691: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2976 - accuracy: 0.83202020-12-03 23:46:15.721093: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 283 of 512
+2020-12-03 23:46:18.005362: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 270s 13s/step - loss: 0.2976 - accuracy: 0.8320 - val_loss: 1.3745 - val_accuracy: 0.6686
+Epoch 7/15
+2020-12-03 23:47:13.808390: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 282 of 512
+2020-12-03 23:47:21.821178: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2934 - accuracy: 0.84882020-12-03 23:50:45.257650: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 281 of 512
+2020-12-03 23:50:47.761546: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 270s 13s/step - loss: 0.2934 - accuracy: 0.8488 - val_loss: 1.4697 - val_accuracy: 0.6257
+Epoch 8/15
+2020-12-03 23:51:43.421425: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 281 of 512
+2020-12-03 23:51:51.425514: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2797 - accuracy: 0.84082020-12-03 23:55:15.275325: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 297 of 512
+2020-12-03 23:55:17.029834: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 270s 13s/step - loss: 0.2797 - accuracy: 0.8408 - val_loss: 1.5373 - val_accuracy: 0.6000
+Epoch 9/15
+2020-12-03 23:56:13.558241: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 271 of 512
+2020-12-03 23:56:22.254730: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2554 - accuracy: 0.87122020-12-03 23:59:45.507635: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 288 of 512
+2020-12-03 23:59:47.582511: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 270s 13s/step - loss: 0.2554 - accuracy: 0.8712 - val_loss: 1.4963 - val_accuracy: 0.6343
+Epoch 10/15
+2020-12-04 00:00:43.211513: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 272 of 512
+2020-12-04 00:00:51.429916: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2362 - accuracy: 0.88402020-12-04 00:04:11.581913: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 281 of 512
+2020-12-04 00:04:14.073992: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 266s 12s/step - loss: 0.2362 - accuracy: 0.8840 - val_loss: 1.6054 - val_accuracy: 0.6429
+Epoch 11/15
+2020-12-04 00:05:08.785696: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 269 of 512
+2020-12-04 00:05:17.164671: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2968 - accuracy: 0.84482020-12-04 00:08:36.757443: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 296 of 512
+2020-12-04 00:08:38.576045: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 265s 12s/step - loss: 0.2968 - accuracy: 0.8448 - val_loss: 2.3933 - val_accuracy: 0.4971
+Epoch 12/15
+2020-12-04 00:09:33.502803: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 283 of 512
+2020-12-04 00:09:41.410903: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2826 - accuracy: 0.85122020-12-04 00:13:02.064578: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 293 of 512
+2020-12-04 00:13:03.977976: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 265s 12s/step - loss: 0.2826 - accuracy: 0.8512 - val_loss: 1.5193 - val_accuracy: 0.6914
+Epoch 13/15
+2020-12-04 00:13:58.878546: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 276 of 512
+2020-12-04 00:14:08.422239: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2868 - accuracy: 0.85522020-12-04 00:17:28.548344: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 296 of 512
+2020-12-04 00:17:30.365944: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 267s 12s/step - loss: 0.2868 - accuracy: 0.8552 - val_loss: 1.4854 - val_accuracy: 0.7029
+Epoch 14/15
+2020-12-04 00:18:25.605674: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 278 of 512
+2020-12-04 00:18:33.589680: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2322 - accuracy: 0.88402020-12-04 00:21:53.451386: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 278 of 512
+2020-12-04 00:21:55.909332: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 266s 12s/step - loss: 0.2322 - accuracy: 0.8840 - val_loss: 1.8868 - val_accuracy: 0.5057
+Epoch 15/15
+2020-12-04 00:22:51.375560: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 285 of 512
+2020-12-04 00:22:59.270527: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - ETA: 0s - loss: 0.2144 - accuracy: 0.89202020-12-04 00:26:19.792297: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 288 of 512
+2020-12-04 00:26:21.903562: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+20/20 [==============================] - 266s 13s/step - loss: 0.2144 - accuracy: 0.8920 - val_loss: 1.8204 - val_accuracy: 0.5886
+2020-12-04 00:27:08.631464: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+Running: python3 /home/dogukan/492-TransferLearning-LSTM/model/LSTM/train_lstm.py
+2020-12-04 00:27:11.211089: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:27:11.211113: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+rm: cannot remove '/home/dogukan/492-TransferLearning-LSTM/LSTM_Model': No such file or directory
+rm: cannot remove '/home/dogukan/492-TransferLearning-LSTM/Final_Output.csv': No such file or directory
+rm: cannot remove '/home/dogukan/492-TransferLearning-LSTM/features_training.csv': No such file or directory
+rm: cannot remove '/home/dogukan/492-TransferLearning-LSTM/features_test.csv': No such file or directory
+2020-12-04 00:27:13.468637: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:27:13.469465: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2020-12-04 00:27:13.494143: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-04 00:27:13.494704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1727] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 960M computeCapability: 5.0
+coreClock: 1.176GHz coreCount: 5 deviceMemorySize: 3.95GiB deviceMemoryBandwidth: 74.65GiB/s
+2020-12-04 00:27:13.494801: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.494888: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.494968: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495045: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495120: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495194: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495269: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495343: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2020-12-04 00:27:13.495362: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1764] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-04 00:27:13.495639: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-04 00:27:13.495950: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:27:13.495978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-04 00:27:13.495988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1273]      
+Found 1250 files belonging to 2 classes.
+Found 350 files belonging to 2 classes.
+2020-12-04 00:27:16.153007: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:127] None of the MLIR optimization passes are enabled (registered 2)
+2020-12-04 00:27:16.173236: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2599990000 Hz
+2020-12-04 00:27:26.343638: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 294 of 512
+2020-12-04 00:27:33.788278: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+2020-12-04 00:27:35.993641: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 530841600 exceeds 10% of free system memory.
+2020-12-04 00:27:36.139625: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 530841600 exceeds 10% of free system memory.
+2020-12-04 00:27:37.048538: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:27:37.445222: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:27:46.332940: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 530841600 exceeds 10% of free system memory.
+2020-12-04 00:30:51.765928: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 287 of 512
+2020-12-04 00:30:53.883679: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+Epoch 1/20
+1/1 [==============================] - 3s 3s/step - loss: 0.6586 - accuracy: 0.6400 - val_loss: 0.6182 - val_accuracy: 0.7143
+Epoch 2/20
+1/1 [==============================] - 1s 789ms/step - loss: 0.6406 - accuracy: 0.6400 - val_loss: 0.5989 - val_accuracy: 0.7143
+Epoch 3/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.6263 - accuracy: 0.6400 - val_loss: 0.5844 - val_accuracy: 0.7143
+Epoch 4/20
+1/1 [==============================] - 1s 793ms/step - loss: 0.6143 - accuracy: 0.6000 - val_loss: 0.5728 - val_accuracy: 0.7143
+Epoch 5/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.6033 - accuracy: 0.6000 - val_loss: 0.5630 - val_accuracy: 0.7143
+Epoch 6/20
+1/1 [==============================] - 1s 802ms/step - loss: 0.5927 - accuracy: 0.6000 - val_loss: 0.5542 - val_accuracy: 0.7143
+Epoch 7/20
+1/1 [==============================] - 1s 805ms/step - loss: 0.5823 - accuracy: 0.6400 - val_loss: 0.5461 - val_accuracy: 0.7143
+Epoch 8/20
+1/1 [==============================] - 1s 796ms/step - loss: 0.5719 - accuracy: 0.7200 - val_loss: 0.5385 - val_accuracy: 0.7143
+Epoch 9/20
+1/1 [==============================] - 1s 793ms/step - loss: 0.5619 - accuracy: 0.7200 - val_loss: 0.5316 - val_accuracy: 0.7143
+Epoch 10/20
+1/1 [==============================] - 1s 790ms/step - loss: 0.5522 - accuracy: 0.7600 - val_loss: 0.5252 - val_accuracy: 0.7143
+Epoch 11/20
+1/1 [==============================] - 1s 798ms/step - loss: 0.5430 - accuracy: 0.7200 - val_loss: 0.5194 - val_accuracy: 0.7143
+Epoch 12/20
+1/1 [==============================] - 1s 796ms/step - loss: 0.5343 - accuracy: 0.7200 - val_loss: 0.5142 - val_accuracy: 0.7143
+Epoch 13/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.5261 - accuracy: 0.7200 - val_loss: 0.5093 - val_accuracy: 0.7143
+Epoch 14/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.5182 - accuracy: 0.7200 - val_loss: 0.5047 - val_accuracy: 0.7143
+Epoch 15/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.5105 - accuracy: 0.7600 - val_loss: 0.5004 - val_accuracy: 0.7143
+Epoch 16/20
+1/1 [==============================] - 1s 804ms/step - loss: 0.5029 - accuracy: 0.7600 - val_loss: 0.4963 - val_accuracy: 0.7143
+Epoch 17/20
+1/1 [==============================] - 1s 821ms/step - loss: 0.4954 - accuracy: 0.7600 - val_loss: 0.4926 - val_accuracy: 0.7143
+Epoch 18/20
+1/1 [==============================] - 1s 801ms/step - loss: 0.4880 - accuracy: 0.7600 - val_loss: 0.4892 - val_accuracy: 0.7143
+Epoch 19/20
+1/1 [==============================] - 1s 802ms/step - loss: 0.4808 - accuracy: 0.7600 - val_loss: 0.4863 - val_accuracy: 0.7143
+Epoch 20/20
+1/1 [==============================] - 1s 799ms/step - loss: 0.4736 - accuracy: 0.7600 - val_loss: 0.4838 - val_accuracy: 0.7143
+2020-12-04 00:32:07.388163: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:absl:Found untraced functions such as lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_fn, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 5 of 5). These functions will not be directly callable after loading.
+Running: python3 /home/dogukan/492-TransferLearning-LSTM/model/CNN/test_cnn.py
+2020-12-04 00:32:09.790972: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:32:09.790996: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2020-12-04 00:32:11.773413: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:32:11.774179: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2020-12-04 00:32:11.798521: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-04 00:32:11.798973: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1727] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 960M computeCapability: 5.0
+coreClock: 1.176GHz coreCount: 5 deviceMemorySize: 3.95GiB deviceMemoryBandwidth: 74.65GiB/s
+2020-12-04 00:32:11.799057: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799118: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799176: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799230: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799293: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799348: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799401: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799456: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2020-12-04 00:32:11.799468: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1764] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-04 00:32:11.799689: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-04 00:32:11.799968: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:32:11.799993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-04 00:32:11.800004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1273]      
+Found 400 files belonging to 2 classes.
+2020-12-04 00:32:14.218979: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:127] None of the MLIR optimization passes are enabled (registered 2)
+2020-12-04 00:32:14.237242: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2599990000 Hz
+2020-12-04 00:32:16.933679: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:32:17.013321: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:32:23.491762: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:32:23.550554: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+2020-12-04 00:32:30.102646: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 265420800 exceeds 10% of free system memory.
+Running: python3 /home/dogukan/492-TransferLearning-LSTM/model/LSTM/test_lstm.py
+2020-12-04 00:33:33.522261: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:33:33.522303: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2020-12-04 00:33:35.598203: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:33:35.598983: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2020-12-04 00:33:35.622162: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-04 00:33:35.622701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1727] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 960M computeCapability: 5.0
+coreClock: 1.176GHz coreCount: 5 deviceMemorySize: 3.95GiB deviceMemoryBandwidth: 74.65GiB/s
+2020-12-04 00:33:35.622790: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.622854: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.622920: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.622979: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.623038: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.623097: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.623156: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.623214: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2020-12-04 00:33:35.623226: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1764] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-04 00:33:35.623452: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-04 00:33:35.623707: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-04 00:33:35.623736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-04 00:33:35.623753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1273]      
+2020-12-04 00:33:38.351332: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:127] None of the MLIR optimization passes are enabled (registered 2)
+2020-12-04 00:33:38.369287: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2599990000 Hz
+Sigmoid Threshold: 0.5
+Test Accuracy: 0.625
+Recall Score: 0.3333333333333333
+Precision Score: 0.5
+F1 Score: 0.4
+
